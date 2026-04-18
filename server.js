@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config(); // ← must be FIRST before other imports
-
 import app from "./src/app.js";
 import { connectDB } from "./src/config/db.js";
 
